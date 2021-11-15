@@ -1,0 +1,65 @@
+/**
+* Style HEADER
+*/
+
+#groupeHeader {
+  border: 4px solid #1771cf;
+}
+#groupeHeader .logo {
+  /* FLOAT :
+ La propriété float left indique qu'un élément doit être retiré du flux normal
+ et doit être placé sur le côté gauche de son conteneur. 
+*/
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 0px 10px 10px 10px;
+  margin-right: 50px;
+}
+#groupeHeader .titre {
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 40px;
+  margin-bottom: 55px;
+}
+
+/**
+* Style EQUIPE
+*/
+#titreEquipe {
+  margin-left: 50px;
+  margin-top: 30px;
+  font-size: 22px;
+}
+#blockEquipe div {
+  /** DISPLAY : 
+    La propriété display définit le type d'affichage utilisée pour le rendu d'un élément
+    et la disposition utilisée pour ses éléments fils.
+    */
+  display: inline-block;
+  padding: 15px 15px 5px 10px;
+  margin: 0px 20px 0px 20px;
+  border: 4px solid #1771cf;
+}
+#blockEquipe {
+  margin-left: 30px;
+}
+#blockEquipe .block > img {
+  width: 200px;
+  height: 240px;
+}
+#blockEquipe .block > p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/**
+* STYLE VALEUR
+*/
+#blockValeur {
+  margin-left: 50px;
+}
+#blockValeur #titreValeur {
+  margin-top: 50px;
+  font-size: 22px;
+}
